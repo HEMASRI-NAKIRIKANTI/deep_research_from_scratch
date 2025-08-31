@@ -115,7 +115,7 @@ def should_continue(state: ResearcherState) -> Literal["tool_node", "compress_re
     if last_message.tool_calls:
         return "tool_node"
     # Otherwise, we have a final answer
-    return "compress_research"
+    return "compress_research" 
 
 # ===== GRAPH CONSTRUCTION =====
 
